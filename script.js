@@ -1,4 +1,8 @@
-const userInput = 4;
+const userInput = prompt("Enter a number");
+
+/*
+const userInput = 8;
+*/
 
 function createGrid() {
     for (let i = 0; i < userInput; i++) {
@@ -9,9 +13,13 @@ function createGrid() {
         for (let i = 0; i < userInput; i++) {
             const box = document.createElement('div');
             box.setAttribute('id', 'box');
+            box.addEventListener('mouseover', (e) => {
+                e.target.style.background = 'green';
+            });
             row.appendChild(box);
         }
     }
 }
 
 createGrid();
+
