@@ -1,0 +1,23 @@
+#container {
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#row {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+#box {
+    background-color: blue;
+    flex-grow: 1;
+    border-style: solid;
+}
