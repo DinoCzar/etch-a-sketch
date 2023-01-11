@@ -10,7 +10,6 @@
 
 #row {
     display: flex;
-    background-color: aquamarine;
     justify-content: center;
     justify-content: space-between;
     flex-grow: 1;
