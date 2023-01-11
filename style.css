@@ -1,11 +1,11 @@
 #container {
     height: 300px;
     width: 300px;
-    background-color: lightblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-content: space-between;
+    border-style: solid;
 }
 
 #row {

@@ -1,9 +1,13 @@
 const btn = document.querySelector('#btn');
-btn.addEventListener('click', () => {
+btn.addEventListener('click', () => {    
     const userInput = prompt("Enter a number");
+    
+    const container = document.querySelector('#container');
+    container.replaceChildren();
+    
     if (userInput < 100) {
         for (let i = 0; i < userInput; i++) {
-            const container = document.querySelector('#container');
+            const container = document.querySelector('#container');            
             const row = document.createElement('div');
             row.setAttribute('id', 'row');
             container.appendChild(row);
